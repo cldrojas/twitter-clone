@@ -11,8 +11,9 @@
     "type-check": "tsc"
   },
   "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0"
   },
   "devDependencies": {
     "@types/react": "^17.0.38",
@@ -33,6 +34,7 @@
     "vite": "^2.7.13",
     "vite-tsconfig-paths": "^3.3.17"
   },
+  "include": ["src/components", "types.d.ts"],
   "pre-commit": "lint",
   "license": "MIT"
 }
