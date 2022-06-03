@@ -34,7 +34,10 @@
     "vite": "^2.7.13",
     "vite-tsconfig-paths": "^3.3.17"
   },
-  "include": ["src/components", "types.d.ts"],
+  "include": [
+    "src/components",
+    "types.d.ts"
+  ],
   "pre-commit": "lint",
   "license": "MIT"
 }
